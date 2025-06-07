@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>I'm not a robot</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
-      <!-- solution start -->
-      
-      <!-- solution end -->
+      <div class="main">
+        <h3 id="h">
+          Please click on the identical tiles to verify that you are not a
+          robot.
+        </h3>
+        <div id="image-container">
+        </div>
+        <button id="reset" style="display: none">Reset</button>
+        <button id="verify" style="display: none">Verify</button>
+        <p id="para"></p>
+      </div>
     </main>
     <script src="./script.js"></script>
   </body>
